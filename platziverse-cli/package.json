@@ -1,0 +1,12 @@
+{
+  "name": "platziverse-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "platziverse.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
