@@ -1,0 +1,24 @@
+{
+  "name": "platziverse-mqtt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "## `agent/connected`",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "start-dev": "DEBUG=platziverse:* nodemon server.js",
+    "lint": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "debug": "^4.3.1",
+    "platziverse-db": "file:../plat",
+    "redis": "^3.1.2"
+  }
+}
