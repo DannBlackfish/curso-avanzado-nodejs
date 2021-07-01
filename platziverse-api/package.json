@@ -1,0 +1,25 @@
+{
+  "name": "platziverse-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=platziverse:* ava tests/ --verbose",
+    "start": "NODE_ENV=production node server.js",
+    "start-dev": "DEBUG=platziverse:* nodemon server.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nodemon": "^2.0.9",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  }
+}
