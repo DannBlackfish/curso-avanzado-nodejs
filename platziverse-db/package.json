@@ -4,14 +4,19 @@
   "description": "A simple IoT plataform - DB mdouel",
   "main": "index.js",
   "scripts": {
+    "test": "DEBUG=platziverse:* ava --verbose",
+    "setup": "SET DEBUG=platziverse:* && node setup.js",
     "lint": "standard"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ava": "^3.15.0",
     "standard": "^16.0.3"
   },
   "dependencies": {
+    "chalk": "^4.1.1",
+    "inquirer": "^8.1.1",
     "pg": "^8.6.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.6.4"
